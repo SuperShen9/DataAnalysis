@@ -5,10 +5,8 @@ import pandas as pd
 
 pd.set_option('expand_frame_repr', False)
 pd.set_option('display.max_rows', 1000)
-from build.Func import or_path
-from Func import gb
 import warnings
-import matplotlib.pyplot as plt
+
 warnings.filterwarnings('ignore')
 
 

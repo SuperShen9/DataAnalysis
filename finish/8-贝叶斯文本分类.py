@@ -5,11 +5,12 @@ import os
 import jieba
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-stop_path = 'E:\BaiduYunDownload\weixin\\20190205\\stop\stopword.txt'
-train_path = 'E:\BaiduYunDownload\weixin\\20190205\\train\\'
-test_path = 'E:\BaiduYunDownload\weixin\\20190205\\test\\'
+# 目标路径
+stop_path = 'E:\BaiduYunDownload\weixin\\文本分类\\stop\stopword.txt'
+train_path = 'E:\BaiduYunDownload\weixin\\文本分类\\train\\'
+test_path = 'E:\BaiduYunDownload\weixin\\文本分类\\test\\'
 
-
+# 提取标签
 def labels(path):
     list_l = []
     count = 0
@@ -27,7 +28,7 @@ def labels(path):
 labels1, labels_len1 = labels(train_path)
 labels2, labels_len2 = labels(test_path)
 
-
+# 匹配标签
 def fit_labels(labels, labels_len):
     fit_labels = []
     for x in range(len(labels)):
@@ -35,11 +36,10 @@ def fit_labels(labels, labels_len):
 
     return fit_labels
 
-
 train_labels = fit_labels(labels1, labels_len1)
 test_labels = fit_labels(labels2, labels_len2)
 
-
+# 提取数据
 def get_data(path, labels):
     contents = []
 
@@ -53,7 +53,6 @@ def get_data(path, labels):
 
 
 train_contents = get_data(train_path, labels1)
-
 test_contents = get_data(test_path, labels2)
 
 # 加载停用表
