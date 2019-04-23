@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ad81c4-5882-4e28-8780-3ce7fc3a2dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/微微需求0419.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/release/词云2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TTT.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/finish/7-boss直聘抓取.py" beforeDir="false" afterPath="$PROJECT_DIR$/finish/7-boss直聘抓取.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release/KNN分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/KNN分类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release/微微.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/微微.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release/词云.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/词云.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/微微需求0419.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/微微需求0419.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +18,12 @@
     <session id="1068261808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.3" value="12" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.3" value="14" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,37 +31,53 @@
           <entry key="cfg" value="1" />
           <entry key="csv" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="101" />
+          <entry key="py" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="101" />
+          <entry key="Python" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="61" />
+          <entry key="dummy" value="64" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="4962" />
+          <entry key="py" value="5470" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="62" />
-          <entry key="Python" value="4962" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Python" value="5470" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/release/KNN分类.py">
+        <entry file="file://$PROJECT_DIR$/release/词云.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="227">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="e#45#87#0" expanded="true" />
+                <marker date="1556023855389" expanded="true" signature="268:813" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/release/词云2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="e#45#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +132,15 @@
         <option value="$PROJECT_DIR$/finish/6-PageRank权重分析.py" />
         <option value="$PROJECT_DIR$/TTT.py" />
         <option value="$USER_HOME$/PycharmProjects/untitled1/a.py" />
-        <option value="$PROJECT_DIR$/finish/7-boss直聘抓取.py" />
         <option value="$PROJECT_DIR$/release/KNN分类.py" />
+        <option value="$PROJECT_DIR$/finish/7-boss直聘抓取.py" />
+        <option value="$PROJECT_DIR$/test/微微需求0419.py" />
+        <option value="$PROJECT_DIR$/release/词云2.py" />
+        <option value="$PROJECT_DIR$/release/词云.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="520" />
     <option name="y" value="16" />
     <option name="width" value="1230" />
@@ -187,6 +203,7 @@
       <recent name="E:\DataAnalysis\build" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DataAnalysis\release" />
       <recent name="E:\DataAnalysis\boss_zhipin" />
       <recent name="E:\DataAnalysis\test" />
       <recent name="E:\DataAnalysis" />
@@ -204,7 +221,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KNN分类">
+  <component name="RunManager" selected="Python.词云">
+    <configuration name="词云" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/release" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/release/词云.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="微微需求0419" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/微微需求0419.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="7-boss直聘抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,70 +297,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/release/KNN分类.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SVM分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DataAnalysis\finish\9-SVM乳腺癌检测.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SVM乳腺癌检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DataAnalysis\finish\9-SVM乳腺癌检测.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TTT" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DataAnalysis\test\微微需求0419.py" />
+      <option name="SCRIPT_NAME" value="E:\DataAnalysis\finish\10-KNN分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +328,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.TTT" />
-      <item itemvalue="Python.SVM分类" />
       <item itemvalue="Python.a" />
       <item itemvalue="Python.7-boss直聘抓取" />
       <item itemvalue="Python.KNN分类" />
+      <item itemvalue="Python.微微需求0419" />
+      <item itemvalue="Python.词云" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.词云" />
+        <item itemvalue="Python.微微需求0419" />
         <item itemvalue="Python.KNN分类" />
         <item itemvalue="Python.7-boss直聘抓取" />
         <item itemvalue="Python.a" />
-        <item itemvalue="Python.TTT" />
-        <item itemvalue="Python.SVM分类" />
       </list>
     </recent_temporary>
   </component>
@@ -371,21 +367,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36343852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36343852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.37893593" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.079434164" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.33841133" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -496,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/9-SVM乳腺癌检测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/untitled/D_每日数据code/qi_qi_le/run1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357" />
@@ -553,28 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/微微需求0419.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/untitled1/a.py" />
-    <entry file="file://$PROJECT_DIR$/finish/8-贝叶斯文本分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/finish/7-boss直聘抓取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Tensorflow/a.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -582,10 +550,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/release/KNN分类.py">
+    <entry file="file://$PROJECT_DIR$/release/a.py" />
+    <entry file="file://$PROJECT_DIR$/release/test.py" />
+    <entry file="file://$PROJECT_DIR$/test/头像.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/9-SVM乳腺癌检测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="1428">
+          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/微微需求0419.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/10-KNN分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/7-boss直聘抓取.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/8-贝叶斯文本分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/词云2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#45#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/词云.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#45#87#0" expanded="true" />
+            <marker date="1556023855389" expanded="true" signature="268:813" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

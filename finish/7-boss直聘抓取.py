@@ -49,7 +49,21 @@ def init():
         else:
             div = 2
 
-        html = requests.get(url, headers=headers).text
+        ip = random.choice(list1)
+        ua = random.choice(list2)
+        psoxy = {'http': 'http://' + ip}
+        headers = {
+            'accept': "application/json, text/javascript, */*; q=0.01",
+            'accept-encoding': "gzip, deflate, br",
+            'accept-language': "zh-CN,zh;q=0.9,en;q=0.8",
+            'content-type': "application/x-www-form-urlencoded; charset=UTF-8",
+            'cookie': "JSESSIONID=""; __c=1530137184; sid=sem_pz_bdpc_dasou_title; __g=sem_pz_bdpc_dasou_title; __l=r=https%3A%2F%2Fwww.zhipin.com%2Fgongsi%2F5189f3fadb73e42f1HN40t8~.html&l=%2Fwww.zhipin.com%2Fgongsir%2F5189f3fadb73e42f1HN40t8~.html%3Fka%3Dcompany-jobs&g=%2Fwww.zhipin.com%2F%3Fsid%3Dsem_pz_bdpc_dasou_title; Hm_lvt_194df3105ad7148dcf2b98a91b5e727a=1531150234,1531231870,1531573701,1531741316; lastCity=101010100; toUrl=https%3A%2F%2Fwww.zhipin.com%2Fjob_detail%2F%3Fquery%3Dpython%26scity%3D101010100; Hm_lpvt_194df3105ad7148dcf2b98a91b5e727a=1531743361; __a=26651524.1530136298.1530136298.1530137184.286.2.285.199",
+            'origin': "https://www.zhipin.com",
+            'referer': "https://www.zhipin.com/job_detail/?query=python&scity=101010100",
+            'user-agent': ua
+        }
+
+        html = requests.get(url, headers=headers, proxies=psoxy).text
 
         tree = etree.HTML(html)
 
@@ -104,6 +118,8 @@ if os.path.exists(file):
 else:
     init()
 
+
+# 读取数据
 df = pd.read_excel(or_path('boss直聘数据分析岗位'))
 
 df.drop_duplicates('url', inplace=True)

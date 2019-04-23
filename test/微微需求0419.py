@@ -42,19 +42,20 @@ def biao1(df):
 
 def biao2():
     def age(x):
-        if x <= 30:
-            return '0-30'
-        elif x <= 40:
-            return '30-40'
+        if x <= 10:
+            return '0-10'
+        elif x <= 30:
+            return '10-30'
         elif x <= 50:
-            return '40-50'
-        elif x <= 60:
-            return '50-60'
+            return '30-50'
+        elif x <= 70:
+            return '50-70'
         elif x <= 90:
-            return '60-90'
+            return '70-90'
 
 
     df['年龄2'] = df['年龄'].apply(lambda x: age(x))
+
 
     s1 = pd.DataFrame(df.groupby('年龄2').size())
     s1.columns = ['个数']
@@ -70,6 +71,8 @@ def biao2():
 
     df5 = df[(df['感染层'] == '多重感染')]
     s1['多重感染'] = df5.groupby('年龄2').size()
+
+    s1.fillna(0,inplace=True)
 
     s1.loc['汇总'] = s1.apply(lambda x: sum(x))
 
@@ -93,7 +96,8 @@ def biao2():
     s1.to_excel(or_path('各个年龄阶段的总数以及总计'),index=False)
     print(s1)
 
-
+biao2()
+exit()
 
 
 df3 = df[(df['HPV阳性'].notnull())]
