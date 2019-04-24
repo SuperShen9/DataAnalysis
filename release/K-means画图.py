@@ -10,7 +10,6 @@ from sklearn import preprocessing
 
 file = 'E:\BaiduYunDownload\weixin\\20190227\\dalian.jpg'
 
-
 # 加载图像，并对数据进行规范化
 def load_data(filePath):
     # 读文件
@@ -39,7 +38,6 @@ def load_data(filePath):
 
 
 # 加载图像，得到规范化的结果img，以及图像尺寸
-
 img, width, height = load_data(file)
 
 # 用K-Means对图像进行2聚类
@@ -51,10 +49,9 @@ label = kmeans.predict(img)
 label = label.reshape([width, height])
 
 # 创建个新图像pic_mark，用来保存图像聚类的结果，并设置不同的灰度值
-
 pic_mark = image.new("L", (width, height))
-# 根据类别设置图像灰度, 类别0 灰度值为255， 类别1 灰度值为127
 
+# 根据类别设置图像灰度, 类别0 灰度值为255， 类别1 灰度值为127
 for x in range(width):
     for y in range(height):
         pic_mark.putpixel((x, y), int(255 - (label[x][y] * 240)))

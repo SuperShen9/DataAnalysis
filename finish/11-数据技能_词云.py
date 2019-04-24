@@ -5,15 +5,17 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import jieba
 import pandas as pd
-from build.Func import or_path
 import re
 
 # 查找单词
 pattern = re.compile(r'[A-Za-z]+')
 
+file = 'E:\BaiduYunDownload\weixin\\boss直聘\\boss直聘数据分析岗位content.xlsx'
+
+
 # 读取数据
 def read_data(type=1):
-    df = pd.read_excel(or_path('boss直聘数据分析岗位content'))
+    df = pd.read_excel(file)
     words = ''
     for i in range(df.shape[0]):
         content = str(df.loc[i, '工作内容'])
@@ -33,8 +35,10 @@ def read_data(type=1):
 
     return words
 
+
 type = 1
 text = read_data(type)
+
 
 # 生成词云
 def create_word_cloud(text):
@@ -42,6 +46,7 @@ def create_word_cloud(text):
     stopwords.add("数据")
     stopwords.add("分析")
     stopwords.add("岗位职责")
+    stopwords.add("工作")
     stopwords.add("xa")
 
     wc = WordCloud(
@@ -62,5 +67,6 @@ def create_word_cloud(text):
     plt.imshow(wordcloud)
     plt.axis("off")
     plt.show()
+
 
 create_word_cloud(text)
