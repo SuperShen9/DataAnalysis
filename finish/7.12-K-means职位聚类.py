@@ -20,9 +20,9 @@ train_features = data[features]
 
 train_features['薪水'] = train_features['薪水'].apply(lambda x: x.split('k-')[0])
 
-# print(train_features.head())
-# print(train_features.info())
-# exit()
+print(train_features.head())
+print(train_features.info())
+print('-'*50)
 
 # 转化数值类型
 from sklearn import preprocessing
@@ -34,12 +34,12 @@ for col in features[1:]:
 min_max_scaler = preprocessing.MinMaxScaler()
 train_x = min_max_scaler.fit_transform(train_features)
 
-# print(train_features)
-# exit()
+print(train_features.head())
+print('-'*50)
 
 # k-Means 算法
 from sklearn.cluster import KMeans
-kmeans = KMeans(n_clusters=3)
+kmeans = KMeans(n_clusters=10)
 kmeans.fit(train_x)
 predict_y = kmeans.predict(train_x)
 
@@ -48,8 +48,8 @@ result = pd.concat((pd.DataFrame(predict_y), data), axis=1)
 result.rename(columns={0: u'聚类'}, inplace=True)
 
 result.to_excel(or_path('聚类结果'))
-# print(result)
-# exit()
+print(result.head())
+print('-'*50)
 
 # 输出聚类效果
 df = pd.DataFrame(result.groupby('聚类').apply(lambda x: list(x['公司'] + '-' + x['职位'])))
