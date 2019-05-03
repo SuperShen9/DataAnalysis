@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ad81c4-5882-4e28-8780-3ce7fc3a2dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/finish/7.14-职位-数据分析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finish/11-Adaboost预测房价.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/7.14-职位关联分析.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PageRank_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/PageRank_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +17,12 @@
     <session id="1068261808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.3" value="18" />
-          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.3" value="21" />
+          <entry key="project.open.time.4" value="10" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -28,26 +30,26 @@
           <entry key="cfg" value="1" />
           <entry key="csv" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="166" />
+          <entry key="py" value="192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="166" />
+          <entry key="Python" value="192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="115" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="7940" />
+          <entry key="py" value="8385" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="116" />
-          <entry key="Python" value="7940" />
+          <entry key="Python" value="8385" />
         </counts>
       </usages-collector>
     </session>
@@ -55,13 +57,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/finish/7.14-职位-数据分析.py">
+        <entry file="file://$PROJECT_DIR$/finish/11-Adaboost预测房价.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="345">
+              <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
               <folding>
-                <element signature="e#44#62#0" expanded="true" />
-                <marker date="1556806757615" expanded="true" signature="797:906" ph="..." />
+                <element signature="e#40#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,6 +135,9 @@
         <option value="$PROJECT_DIR$/finish/7.13-EM职位聚类.py" />
         <option value="$PROJECT_DIR$/finish/7.14-职位-数据清洗.py" />
         <option value="$PROJECT_DIR$/finish/7.14-职位-数据分析.py" />
+        <option value="$PROJECT_DIR$/finish/test.py" />
+        <option value="$PROJECT_DIR$/test/PageRank_model.py" />
+        <option value="$PROJECT_DIR$/finish/11-Adaboost预测房价.py" />
       </list>
     </option>
   </component>
@@ -178,7 +182,7 @@
             <path>
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="finish" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,29 +223,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7.14-职位-数据分析">
-    <configuration name="关联规则算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/release" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/release/关联规则算法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7.13-EM职位聚类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.11-Adaboost预测房价">
+    <configuration name="11-Adaboost预测房价" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +236,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finish/7.13-EM职位聚类.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finish/11-Adaboost预测房价.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4-手写数字预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/finish" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finish/4-手写数字预测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.14-聚类职位清洗" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="9-SVM乳腺癌检测" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -316,7 +320,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DataAnalysis\test\7.14-职位关联分析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finish/9-SVM乳腺癌检测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +329,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.14-职位关联分析" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,49 +341,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\DataAnalysis\test\7.14-职位关联分析.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="K-means画图" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/release" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/release/K-means画图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="K-means职位聚类" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/K-means职位聚类.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finish/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,19 +351,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.7.13-EM职位聚类" />
-      <item itemvalue="Python.7.14-聚类职位清洗" />
-      <item itemvalue="Python.关联规则算法" />
       <item itemvalue="Python.7.14-职位-数据清洗" />
-      <item itemvalue="Python.7.14-职位-数据分析" />
+      <item itemvalue="Python.4-手写数字预测" />
+      <item itemvalue="Python.9-SVM乳腺癌检测" />
+      <item itemvalue="Python.11-Adaboost预测房价" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.7.14-职位-数据分析" />
+        <item itemvalue="Python.11-Adaboost预测房价" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.9-SVM乳腺癌检测" />
+        <item itemvalue="Python.4-手写数字预测" />
         <item itemvalue="Python.7.14-职位-数据清洗" />
-        <item itemvalue="Python.7.13-EM职位聚类" />
-        <item itemvalue="Python.关联规则算法" />
-        <item itemvalue="Python.7.14-聚类职位清洗" />
       </list>
     </recent_temporary>
   </component>
@@ -436,13 +398,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42872688" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30903155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.3213898" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.320304" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.33841133" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -454,22 +416,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/Func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PageRank2.py" />
-    <entry file="file://$PROJECT_DIR$/test/PageRank.py" />
     <entry file="file://$PROJECT_DIR$/boss.py" />
     <entry file="file://$PROJECT_DIR$/boss_zhipin/boss_zhipin/main.py" />
     <entry file="file://E:/city_58/city_58/spiders/spider_city_58.py">
@@ -498,13 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="49" column="12" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PageRank_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -575,16 +514,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/release/a.py" />
     <entry file="file://$PROJECT_DIR$/release/test.py" />
-    <entry file="file://$PROJECT_DIR$/test/头像.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/微微需求0419.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finish/7.10-boss直聘抓取.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -593,20 +522,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/release/词云2.py" />
-    <entry file="file://$PROJECT_DIR$/release/K-means亚洲球队.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/release/K-means画图.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finish/2-线性回归.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -628,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/10-KNN分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finish/8-贝叶斯文本分类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -642,31 +550,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/3-分类回归树.py">
+    <entry file="file://$PROJECT_DIR$/finish/7.13-EM职位聚类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="95">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/9-SVM乳腺癌检测.py">
+    <entry file="file://$PROJECT_DIR$/finish/7.12-K-means职位聚类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="35" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="147">
+          <caret line="20" column="77" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/5-泰坦尼克预测.py">
+    <entry file="file://$PROJECT_DIR$/finish/7.14-职位-数据分析.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="986">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/4-手写数字预测.py">
+    <entry file="file://$PROJECT_DIR$/release/KM算法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="44" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="-374">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/release/K-means画图.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -677,40 +592,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/7.14-职位关联分析.py">
+    <entry file="file://$PROJECT_DIR$/release/K-means亚洲球队.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="17">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/7.13-EM职位聚类.py">
+    <entry file="file://$PROJECT_DIR$/finish/3-分类回归树.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-717">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/7.12-K-means职位聚类.py">
+    <entry file="file://$PROJECT_DIR$/finish/4-手写数字预测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="20" column="77" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="77" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/7.14-职位-数据分析.py">
+    <entry file="file://$PROJECT_DIR$/finish/5-泰坦尼克预测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="266">
+          <caret line="69" column="47" lean-forward="true" selection-start-line="69" selection-end-line="69" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/10-KNN分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/9-SVM乳腺癌检测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/test.py" />
+    <entry file="file://$PROJECT_DIR$/test/7.14-职位关联分析.py" />
+    <entry file="file://$PROJECT_DIR$/test/PageRank_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/头像.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/微微.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/微微需求0419.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finish/11-Adaboost预测房价.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="87" column="16" lean-forward="true" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
           <folding>
-            <element signature="e#44#62#0" expanded="true" />
-            <marker date="1556806757615" expanded="true" signature="797:906" ph="..." />
+            <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>

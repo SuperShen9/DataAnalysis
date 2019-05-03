@@ -13,7 +13,6 @@ graph = nx.DiGraph()
 # print(graph)
 # exit()
 
-
 # 添加节点
 for x in edges:
     graph.add_edge(x[0], x[1])
