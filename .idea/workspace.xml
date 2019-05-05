@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ad81c4-5882-4e28-8780-3ce7fc3a2dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/finish/1.1-数据降维.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finish/12-随机森林.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/12-随机森林demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finish/1-数据变换.py" beforeDir="false" afterPath="$PROJECT_DIR$/finish/1.0-数据变换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/12-随机森林demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/12-随机森林demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PageRank_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/PageRank_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/头像.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/头像.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/微微.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/微微.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/微微需求0419.py" beforeDir="false" afterPath="$PROJECT_DIR$/release/微微需求0419.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +18,7 @@
     <session id="1068261808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.3" value="23" />
           <entry key="project.open.time.4" value="11" />
@@ -31,13 +31,13 @@
           <entry key="cfg" value="1" />
           <entry key="csv" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="py" value="203" />
+          <entry key="py" value="205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="203" />
+          <entry key="Python" value="205" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,29 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finish/1.0-数据变换.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finish/9-SVM乳腺癌检测.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/finish/12-随机森林.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#98#149#0" expanded="true" />
               </folding>
@@ -200,11 +182,6 @@
               <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="finish" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,19 +194,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\DataAnalysis\release" />
+      <recent name="E:\DataAnalysis\test" />
+      <recent name="E:\DataAnalysis\finish" />
+      <recent name="E:\DataAnalysis" />
+      <recent name="E:\DataAnalysis\boss_zhipin\boss_zhipin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\DataAnalysis\test" />
       <recent name="E:\DataAnalysis\finish" />
       <recent name="E:\DataAnalysis" />
       <recent name="E:\DataAnalysis\release" />
       <recent name="E:\DataAnalysis\boss_zhipin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\DataAnalysis\test" />
-      <recent name="E:\DataAnalysis\finish" />
-      <recent name="E:\DataAnalysis" />
-      <recent name="E:\DataAnalysis\boss_zhipin\boss_zhipin" />
-      <recent name="E:\DataAnalysis\build" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,20 +368,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35799783" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35799783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.31991294" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.31991294" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.33841133" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -527,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finish/8-贝叶斯文本分类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finish/7.13-EM职位聚类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -613,20 +582,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/finish/test.py" />
     <entry file="file://$PROJECT_DIR$/test/7.14-职位关联分析.py" />
-    <entry file="file://$PROJECT_DIR$/test/PageRank_model.py">
+    <entry file="file://$PROJECT_DIR$/release/PageRank_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/头像.py">
+    <entry file="file://$PROJECT_DIR$/release/头像.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/微微.py">
+    <entry file="file://$PROJECT_DIR$/release/微微.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/微微需求0419.py">
+    <entry file="file://$PROJECT_DIR$/release/微微需求0419.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="835">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
@@ -640,7 +609,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/12-随机森林demo.py">
+    <entry file="file://$PROJECT_DIR$/release/12-随机森林demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
@@ -671,10 +640,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/finish/8-贝叶斯文本分类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#40#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/finish/12-随机森林.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#98#149#0" expanded="true" />
           </folding>
