@@ -31,6 +31,13 @@ def Normailize(x):
     print(scaled_x)
     print('-' * 50)
 
+    from sklearn.preprocessing import StandardScaler
+    ss = StandardScaler()
+    scaled_x2 = ss.fit_transform(x)
+    print(scaled_x2)
+    print('-' * 50)
+
+
     # 小数定标规范化
     j = np.ceil(np.log10(np.max(abs(x))))
     scaled_y = x / (10 ** j)
