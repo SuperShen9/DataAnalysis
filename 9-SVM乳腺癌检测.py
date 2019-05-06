@@ -34,7 +34,7 @@ plt.show()
 
 # 用热力图呈现 features_mean 字段之间的相关性
 corr = data[features_mean].corr()
-plt.figure(figsize=(14, 14))
+plt.figure(figsize=(12, 12))
 sns.heatmap(corr)
 plt.show()
 
