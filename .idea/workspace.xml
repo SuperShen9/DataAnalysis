@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ad81c4-5882-4e28-8780-3ce7fc3a2dea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12.3-ARMA以太坊预测.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.4-test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/ARMA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DataAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DataAnalysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.4-ARMA上证指数预测.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.3-ARMA以太坊预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/12.3-ARMA以太坊预测.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +16,12 @@
     <session id="1068261808">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
+          <entry key="project.closed" value="44" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.3" value="25" />
+          <entry key="project.open.time.3" value="26" />
           <entry key="project.open.time.4" value="14" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="45" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,67 +30,40 @@
           <entry key="csv" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="261" />
+          <entry key="py" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="261" />
+          <entry key="Python" value="271" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="174" />
+          <entry key="dummy" value="175" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="7" />
-          <entry key="py" value="10905" />
+          <entry key="py" value="11106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="7" />
-          <entry key="PLAIN_TEXT" value="175" />
-          <entry key="Python" value="10905" />
+          <entry key="PLAIN_TEXT" value="176" />
+          <entry key="Python" value="11106" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/ARMA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12.3-ARMA以太坊预测.py">
+        <entry file="file://$PROJECT_DIR$/12.4-ARMA上证指数预测.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12.4-test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -130,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PageRank_model.py" />
-        <option value="$PROJECT_DIR$/PageRank.py" />
         <option value="$PROJECT_DIR$/release/boss直聘.py" />
         <option value="$PROJECT_DIR$/boss_zhipin/boss_zhipin/spiders/main.py" />
         <option value="$PROJECT_DIR$/boss_zhipin/boss_zhipin/settings.py" />
@@ -178,9 +146,11 @@
         <option value="$PROJECT_DIR$/1.0-数据变换.py" />
         <option value="$PROJECT_DIR$/12.2-逻辑回归.py" />
         <option value="$PROJECT_DIR$/demo/ARMA.py" />
+        <option value="$PROJECT_DIR$/以太坊数据抓取.py" />
         <option value="$PROJECT_DIR$/12.4-test.py" />
         <option value="$PROJECT_DIR$/12.3-ARMA以太坊预测.py" />
-        <option value="$PROJECT_DIR$/以太坊数据抓取.py" />
+        <option value="$PROJECT_DIR$/12.3-ARMA上证指数预测.py" />
+        <option value="$PROJECT_DIR$/12.4-ARMA上证指数预测.py" />
       </list>
     </option>
   </component>
@@ -234,19 +204,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DataAnalysis" />
+      <recent name="E:\DataAnalysis\test" />
+      <recent name="E:\DataAnalysis\finish" />
+      <recent name="E:\DataAnalysis\release" />
+      <recent name="E:\DataAnalysis\boss_zhipin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DataAnalysis" />
       <recent name="E:\DataAnalysis\finish" />
       <recent name="E:\DataAnalysis\release" />
       <recent name="E:\DataAnalysis\test" />
       <recent name="E:\DataAnalysis\boss_zhipin\boss_zhipin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\DataAnalysis\test" />
-      <recent name="E:\DataAnalysis\finish" />
-      <recent name="E:\DataAnalysis" />
-      <recent name="E:\DataAnalysis\release" />
-      <recent name="E:\DataAnalysis\boss_zhipin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.以太坊数据抓取">
+  <component name="RunManager" selected="Python.12.4-ARMA上证指数预测">
     <configuration name="以太坊数据抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,6 +274,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="12.3-ARMA上证指数预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\DataAnalysis\12.4-ARMA上证指数预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="12.4-ARMA上证指数预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.4-ARMA上证指数预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="12.4-test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,62 +337,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.10-boss直聘抓取" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.10-boss直聘抓取.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ARMA" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataAnalysis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/ARMA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.7.10-boss直聘抓取" />
       <item itemvalue="Python.12.3-ARMA以太坊预测" />
       <item itemvalue="Python.12.4-test" />
-      <item itemvalue="Python.ARMA" />
       <item itemvalue="Python.以太坊数据抓取" />
+      <item itemvalue="Python.12.3-ARMA上证指数预测" />
+      <item itemvalue="Python.12.4-ARMA上证指数预测" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.12.4-ARMA上证指数预测" />
+        <item itemvalue="Python.12.3-ARMA上证指数预测" />
         <item itemvalue="Python.以太坊数据抓取" />
         <item itemvalue="Python.12.3-ARMA以太坊预测" />
         <item itemvalue="Python.12.4-test" />
-        <item itemvalue="Python.ARMA" />
-        <item itemvalue="Python.7.10-boss直聘抓取" />
       </list>
     </recent_temporary>
   </component>
@@ -410,18 +380,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23498419" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23498419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47007617" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4319913" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.3188248" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.13492927" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.33841133" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -433,7 +403,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/finish/7.10-boss直聘抓取.py" />
     <entry file="file://$PROJECT_DIR$/release/词云2.py" />
     <entry file="file://$PROJECT_DIR$/finish/2-线性回归.py" />
     <entry file="file://$PROJECT_DIR$/finish/7.11-数据技能_词云.py" />
@@ -598,53 +567,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/ARMA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/BaiduYunDownload/云服务器 RUN/Bolling_EOS/Signals.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.4-test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/以太坊数据抓取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-          <folding>
-            <element signature="e#40#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/以太坊数据抓取.py" />
     <entry file="file://E:/BaiduYunDownload/云服务器 RUN/Bolling_EOS/Functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="1" selection-end-line="10" />
-          <folding>
-            <element signature="e#24#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,13 +589,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/ARMA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.4-test.py" />
     <entry file="file://$PROJECT_DIR$/12.3-ARMA以太坊预测.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="884">
+          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.4-ARMA上证指数预测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
